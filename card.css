@@ -1,0 +1,43 @@
+#aside {	
+	line-height:20px;
+	background-color:burlywood;
+	height:415px;
+	width:100px;
+	float:left;
+	margin: 0px;
+	padding:10px;
+	font-family: courier;
+	font-size: 100%;
+	}
+	h1   {
+	color:white;
+	font-family: verdana;
+	font-size: 250%;
+	}
+	p  {
+		color:darkkhaki;
+		font-family: monospace;
+		font-size: 150%;
+		text-align:left;
+		border: 0px solid rgba(0, 0, 0, 0.699);
+		padding: 0px;
+		margin: 0px;
+		margin-top: 1px;
+		margin-bottom: 1px;
+		margin-right: 1px;
+		margin-left: 1px;
+		}
+		body {
+			background-color:darkgray;
+		}
+		.column {
+			flex: 50%;
+			padding: 10px;
+			height: 300px;
+		}
+		.row {
+			display: flex;
+		}
+		{ 
+			box-sizing: border-box;
+		}
